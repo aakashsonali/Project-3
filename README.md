@@ -5,12 +5,15 @@
 ## Please see following folders for corresponding notebooks, files and images:
 ### BackEnd Folder
 * Solidity Contracts
+* Web3
+* Open Zepplin
 
 ### FrontEnd Folder
 * HTML
 * Javascript
 * CSS
-
+* Web3.Js
+* Metamask
 
 ### Instructions
 * Instuctions on how to run our contracts with images.
