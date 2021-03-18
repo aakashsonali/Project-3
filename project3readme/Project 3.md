@@ -70,3 +70,16 @@ Compile and Deployment of Smart Contract demo1.sol
 * Ready for Buy Back
 
 ![](images/project3_20.PNG)
+
+
+Deploy Frontend Dapp Website on local host
+
+* Deploy Contracts with ganache
+
+* Save token_sale_address and the wallet address associated with token account and add to buydapp.js and indexdapp.js under contract_address and wallet_address
+
+* Open terminal and cd to frontend folder
+
+* Run command "python -m http.server 8000"
+
+* Navigate to "Localhost:8000" in browser

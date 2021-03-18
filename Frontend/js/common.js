@@ -72,6 +72,7 @@ function openModal() {
 
 
   //Not secure but for proof of concept
+  // Change Passwords for each report to your desire
   function password1() {
     var passprompt = prompt('Please Enter Password',' ');
     var pass1 = 'ether'
@@ -104,3 +105,36 @@ function openModal() {
       location.href='pass3.html';
     }
   }
+
+  function currency() {
+    rate = document.getElementById("converter").value;
+    return rate;
+  }
+
+  function calculate() {
+    rate = currency()
+    first = document.getElementById("value1").value;
+    if(first == ""){
+      document.getElementById("value2").value = "";
+    }else{
+      switch(rate){
+        case "USD":
+          document.getElementById("value2").value = first * 1827.41;
+        break;
+   
+        case "CAD":
+          document.getElementById("value2").value = first * 2267.14;
+        break;
+   
+        case "EURO":
+          document.getElementById("value2").value = first * 1522.81;
+        break;
+
+        case "BTC":
+          document.getElementById("value2").value = first * 0.03100808;
+        break;
+      }
+    }
+  }
+
+
